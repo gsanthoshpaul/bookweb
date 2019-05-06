@@ -20,6 +20,7 @@ public class CategoryDaoImpl implements CategoryDao {
 			Session session=sessionFactory.getCurrentSession();
 			session.save(category);
 			System.out.println("New Category Added");
+			System.out.println("Just Updated in GITHUB");
 			return true;
 
 		}
