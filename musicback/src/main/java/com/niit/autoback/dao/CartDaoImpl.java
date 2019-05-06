@@ -21,6 +21,7 @@ public class CartDaoImpl implements CartDao {
 		{
 			Session session=sessionFactory.getCurrentSession();
 			session.save(cartItem);
+			System.out.println("Sucesss");
 			return true;
 		}
 		catch(Exception e )
